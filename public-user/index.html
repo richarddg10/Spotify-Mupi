@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
+        <link rel="stylesheet" href="styleUser.css">
+    </head>
+    <body>
+        <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+            integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+            crossorigin="anonymous"></script>
+
+        <div id="canva">
+            <button id="nextSong"></button>
+            <button id="previousSong"></button>
+        </div>
+
+        <div id="cameraDiv">
+            <button id="captureButton"></button>
+        </div>
+
+        <div id="Images">
+            <div id="Image1">
+                <img src="./assets/PortadaFeid1.jpg">
+            </div>
+
+            <div id="Image2">
+                <img src="./assets/PortadaFeid2.jpg">
+            </div>
+
+            <div id="Image3">
+                <img src="./assets/PortadaBadBunny.jpg">
+            </div>
+            
+            <div id="Image4">
+                <img src="./assets/PortadaRebelde1.jpg">
+            </div>
+            
+            <div id="Image5">
+                <img src="./assets/PortadaRebelde2.jpg">
+            </div>
+            
+        </div>
+
+        <button id="afterPhoto">After Photo</button>
+
+        <script src="controllerUser.js"></script>
+    </body>
+</html>

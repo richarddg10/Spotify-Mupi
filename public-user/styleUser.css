@@ -1,0 +1,41 @@
+#canva{
+    position: absolute;
+    /* background-color: aqua; */
+    position: static;
+}
+
+#nextSong {
+    position: absolute;
+    top: 286.8px;
+    left: 220PX;
+    background-image: url('./assets/btnNextSong.png');
+    background-size: fill;
+    border: none;
+    width: 20px;
+    height: 32px;
+    background-color: transparent;
+}
+
+#previousSong {
+    position: absolute;
+    top: 286.8px;
+    left: 85PX;
+    background-image: url('./assets/btnPreviousSong.png');
+    background-size: cover;
+    border: none;
+    width: 20px;
+    height: 32px;
+    background-color: transparent;
+}
+
+#captureButton {
+    position: absolute;
+    top: 549.7px;
+    left: 133PX;
+    background-image: url('./assets/takePhoto.png');
+    background-size: cover;
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}

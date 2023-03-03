@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify</title>
+        <link rel="stylesheet" href="styleMupi.css">
+    </head>
+    <body>
+        <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"
+            integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+"
+            crossorigin="anonymous"></script>
+            
+        <div id="canva">
+            <button id="startButton"></button>
+            <button id="scanButton"></button>
+            <button id="continueButton"></button>
+            <button id="repeatButton"></button>
+            <button id="filledButton">click filled</button>
+
+            <button id="afterCapture">After Capture</button>
+        </div>
+
+        <div id="cameraDiv">
+            <video id="video" autoplay></video>
+            <canvas id="canvasCamera"></canvas>
+        </div>
+
+        <div id="photoDiv">
+            <img id="photoImg" src="">
+        </div>
+
+        <script src="controllerMupi.js"></script>
+    </body>
+</html>

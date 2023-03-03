@@ -1,0 +1,60 @@
+#clickInScan {
+    display: none;
+}
+
+#clickInContinue {
+    display: none;
+}
+
+#clickInFilled {
+    display: none;
+}
+
+#startButton {
+    position: absolute;
+    top: 497.5px;
+    left: 133px;
+    background-image: url('./assets/startButton.png');
+    background-size: cover;
+    border: none;
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+}
+
+#scanButton {
+    position: absolute;
+    top: 564.8px;
+    left: 155px;
+    background-image: url('./assets/bottonScan.png');
+    background-size: cover;
+    border: none;
+    width: 155px;
+    height: 41px;
+    background-color: transparent;
+}
+
+
+#continueButton {
+    position: absolute;
+    top: 564.8px;
+    left: 257px;
+    background-image: url('./assets/continueButton.png');
+    background-size: cover;
+    border: none;
+    width: 155px;
+    height: 41px;
+    background-color: transparent;
+}
+
+#repeatButton {
+    position: absolute;
+    top: 564.8px;
+    left: 55px;
+    background-image: url('./assets/repeatButton.png');
+    background-size: cover;
+    border: none;
+    width: 155px;
+    height: 41px;
+    background-color: transparent;
+}
